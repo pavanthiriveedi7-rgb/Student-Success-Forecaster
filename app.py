@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 # PAGE CONFIG
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="EduPredict AI | Student Risk Analyzer",
+    page_title="Student Success Forecaster | AI-powered foresight for tomorrow's toppers and today's at-risk legends",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
