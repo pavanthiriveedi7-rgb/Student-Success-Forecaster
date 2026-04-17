@@ -1,0 +1,117 @@
+{
+  "total_records": 12236,
+  "total_students": 4388,
+  "total_subjects": 249,
+  "pass_rate": 73.8,
+  "fail_rate": 20.7,
+  "absent_rate": 5.2,
+  "grade_counts": {
+    "F": 2531,
+    "A": 2257,
+    "S": 1500,
+    "D": 1458,
+    "E": 1319,
+    "B": 1060,
+    "C": 1012,
+    "ABSENT": 638,
+    "COMPLE": 420,
+    "Change": 37,
+    "MP": 2,
+    "CO": 1,
+    "A+": 1
+  },
+  "top_fail_subjects": [
+    {
+      "Subject": "R231202 DIFFERENTIAL EQUATIONS&VECTOR CA",
+      "fail_rate": 96.1,
+      "total": 129,
+      "avg_internal": 16.2
+    },
+    {
+      "Subject": "R231204 ENGINEERING GRAPHICS",
+      "fail_rate": 93.1,
+      "total": 29,
+      "avg_internal": 17.9
+    },
+    {
+      "Subject": "R231213 NETWORK ANALYSIS",
+      "fail_rate": 88.9,
+      "total": 36,
+      "avg_internal": 12.8
+    },
+    {
+      "Subject": "R231211 BASIC CIVIL&MECHANICAL ENGINEERI",
+      "fail_rate": 88.4,
+      "total": 43,
+      "avg_internal": 13.6
+    },
+    {
+      "Subject": "R231201 ENGINEERING PHYSICS",
+      "fail_rate": 87.2,
+      "total": 47,
+      "avg_internal": 18.3
+    },
+    {
+      "Subject": "R2322032 COMPLEX VARIABLES PROBABILITY A",
+      "fail_rate": 85.7,
+      "total": 14,
+      "avg_internal": 18.4
+    },
+    {
+      "Subject": "R2021011 MATHEMATICS-III",
+      "fail_rate": 84.0,
+      "total": 50,
+      "avg_internal": 19.2
+    },
+    {
+      "Subject": "R2321031 NUMERICAL METHODS AND TRANSFORM",
+      "fail_rate": 81.5,
+      "total": 27,
+      "avg_internal": 18.1
+    },
+    {
+      "Subject": "R2321021 COMPLEX VARIABLES &NUMERICAL ME",
+      "fail_rate": 81.0,
+      "total": 21,
+      "avg_internal": 17.3
+    },
+    {
+      "Subject": "R231209 CHEMISTRY",
+      "fail_rate": 77.9,
+      "total": 77,
+      "avg_internal": 14.3
+    },
+    {
+      "Subject": "R2331033 DESIGN OF MACHINE ELEMENTS",
+      "fail_rate": 76.9,
+      "total": 13,
+      "avg_internal": 19.2
+    },
+    {
+      "Subject": "R2322443 COMPUTER ORGANIZATION AND ARCHI",
+      "fail_rate": 74.6,
+      "total": 59,
+      "avg_internal": 15.0
+    },
+    {
+      "Subject": "R231205 DATA STRUCTURES",
+      "fail_rate": 73.7,
+      "total": 57,
+      "avg_internal": 13.7
+    },
+    {
+      "Subject": "R2321033 MECHANICS OF SOLIDS",
+      "fail_rate": 72.0,
+      "total": 25,
+      "avg_internal": 18.8
+    },
+    {
+      "Subject": "R2321041 PROBABILITY THEORY AND STOCHAST",
+      "fail_rate": 70.8,
+      "total": 120,
+      "avg_internal": 17.0
+    }
+  ],
+  "r23_students": 3608,
+  "r24_students": 1442
+}
