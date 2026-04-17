@@ -1,23 +1,23 @@
-# 🎓 EduPredict AI — Student Risk Intelligence System
+# 🎓  — Student Risk Intelligence System
 
 > **AI-powered early warning system** that predicts academic risk for students using internal marks data.  
 > Built with **XGBoost + Streamlit** | Deployed on **Streamlit Cloud**
 
 ---
 
-## 📸 Features
+## 🌐 Features
 
 | Feature | Description |
 |---|---|
 | 🏠 Dashboard | Overview KPIs, grade distribution, batch comparison |
 | 🔮 Risk Predictor | Enter student profile → get AI risk assessment + recommendations |
-| 🔍 Student Lookup | Search any student by Hall Ticket Number |
-| 📊 Analytics | Deep-dive charts: radar, scatter, box plots |
+| 🕵️ Student Lookup | Search any student by Hall Ticket Number |
+| 📡 Analytics | Deep-dive charts: radar, scatter, box plots |
 | 📖 About | Architecture, ML pipeline, deployment guide |
 
 ---
 
-## 🗂️ Project Structure
+## 🗃️ Project Structure
 
 ```
 student-predictor/
