@@ -444,7 +444,7 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align:center; padding: 1rem 0 1.5rem 0;">
         <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎓</div>
-        <div style="font-size: 1.1rem; font-weight: 700; color: #F1F5F9;">EduPredict AI</div>
+        <div style="font-size: 1.1rem; font-weight: 700; color: #F1F5F9;">Student-Success-Forecaster</div>
         <div style="font-size: 0.75rem; color: #64748B; margin-top: 0.2rem;">
             <span class='status-dot'></span>System Online
         </div>
@@ -494,8 +494,8 @@ if nav == "🏠 Dashboard":
     st.markdown("""
     <div class="hero-header">
         <div class="hero-badge">🤖 AI-Powered Analytics Platform</div>
-        <h1 class="hero-title">Student Risk Intelligence</h1>
-        <p class="hero-subtitle">Identify at-risk students early. Predict academic outcomes. Enable proactive intervention.</p>
+        <h1 class="hero-title">Student Success Forecaster</h1>
+        <p class="hero-subtitle">Spots who's about to get cooked academocally <br> Predicts risk. Saves CGPAs. Before it's too late.</p>
     </div>
     """, unsafe_allow_html=True)
     
