@@ -1,4 +1,4 @@
-# 🎓  — Student Risk Intelligence System
+# 🎓  — Student - Success - Forecaster
 
 > **AI-powered early warning system** that predicts academic risk for students using internal marks data.  
 > Built with **XGBoost + Streamlit** | Deployed on **Streamlit Cloud**
