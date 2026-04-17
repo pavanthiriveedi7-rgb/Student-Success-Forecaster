@@ -1091,11 +1091,16 @@ elif nav == "📊 Analytics":
             for g in grade_order_box:
                 sub = df[df['Grade'] == g]['Internals']
                 if len(sub) > 0:
+                    # Get hex, strip #, convert RGB pairs to int, then join with commas
+                    hex_val = colors_box.get(g, '#64748B').lstrip('#')
+                    rgb_str = ",".join(str(int(hex_val[i:i+2], 16)) for i in (0, 2, 4))
+                    
                     fig_box.add_trace(go.Box(
-                        y=sub, name=g, 
-                        marker_color=colors_box.get(g,'#64748B'),
-                        line_color=colors_box.get(g,'#64748B'),
-                        fillcolor=f"rgba({','.join(str(int(int(colors_box.get(g,'#64748B').lstrip('#')[i:i+2],16)) for i in (0,2,4))},0.15)",
+                        y=sub, 
+                        name=g, 
+                        marker_color=colors_box.get(g, '#64748B'),
+                        line_color=colors_box.get(g, '#64748B'),
+                        fillcolor=f"rgba({rgb_str},0.15)",  # Corrected line
                         boxmean=True,
                         hovertemplate=f'Grade {g}<br>Marks: %{{y}}<extra></extra>'
                     ))
