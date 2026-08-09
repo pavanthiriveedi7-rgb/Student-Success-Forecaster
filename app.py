@@ -4,7 +4,9 @@ import numpy as np
 import joblib
 import json
 
-from sklearn.ensemble import RandomForestClassifier
+import sklearn.ensemble
+sklearn.ensemble.RandomForestClassifier()
+
 
 import plotly.graph_objects as go
 import plotly.express as px
