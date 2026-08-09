@@ -10,7 +10,7 @@ from plotly.subplots import make_subplots
 import warnings
 warnings.filterwarnings('ignore')
 
-# ─────────────────────────────────────────────
+# ────────────────────────────────────────────
 # PAGE CONFIG
 # ─────────────────────────────────────────────
 st.set_page_config(
